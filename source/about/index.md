@@ -1,6 +1,6 @@
 ---
 title: 关于
-date: 2025-07-14 20:58:45
+date: 2025-09-13 19:27:34
 aside: false
 top_img: false
 comments: false
@@ -8,13 +8,13 @@ background: "#f8f9fe"
 type: "about"
 ---
 
-嗨！这里是辰渊尘的博客关于页，我是小尘！欢迎你来到我的站点！
+嗨！这里是 `Zyx_2012` 的博客关于页，我是 Zyx_2012 ！欢迎你来到我的站点！
 
-鄙人2009年出身于 浙江省嘉兴市平湖市，目前在上职业类学校，是位高中生辣，即将高二。
+鄙人2012年出身于北京，目前上初中，是一个 ~~普通的~~ 初中牲。
 
-喜欢折腾一些奇奇怪怪的东西，喜欢骑车，热爱生活，喜欢捣鼓科技数码，还是玩机佬。
+喜欢折腾一些奇奇怪怪的东西，喜欢代码，热爱生活，喜欢捣鼓科技数码，打mc。
 
-大伙们可以叫我包括但不限于：**小尘**、**阿尘**、**尘**、**尘桑** 等等等等
+大伙们可以叫我包括但不限于：**Zyx**、**Zyx_2012**、**Zyx-2012**、**Zyx2012** 等等等等 ~~（其实几乎没区别哈，能让我认出来你在跟我说话即可）~~
 
 大众前社恐，实则慢热，和熟人比较放得开 :(
 
@@ -22,40 +22,39 @@ type: "about"
 
 熟悉 Windows、Linux、Mac、Android、IOS 等系统的开关机
 
-无师自通 Python Java（不是）
+无师自通 Python c++ （bushi
 
-写了好多奇怪的小玩意
+写了好多奇怪的小玩意 ，包括但不限于：apk后门、XSS、CSRF等（均为靶机内实现）
 
 ## 当前常用系统
 
-主力是Arch Linux，打游戏才会切win（辣鸡windows11，我linux套wine玩原神帧数都比win高）
+windows11Pro
 
 ## 我的域名
 
-> 刚换完名字，还在考虑要不要把域名一起换了，换的话我应该会用ChenDusk
+### 已有的
 
-mcxiaochen.top - 现在在用的
+[zyx-2012.cn](https://hopedomain.com/zh/age/zyx-2012.cn) —— 现在用的（2025年7月3日注册，租了3年，2028年7月3日到期）
+[zyx-2012.xyz](https://hopedomain.com/zh/age/zyx-2012.xyz) —— 以前用的（2025年3月18日注册，租了1年，2026年3月18日到期）
 
-~~mcxiaochen.icu~~ - 这个域名用了一年，但阿里云第二年给我涨价了，一个icu域名居然要99一年！！！
+### 想要的/未来打算租的
 
-~~shairun.com - 曾经开mc服务器用的，后续与服主决裂了，所以寄了（这位“服主”只提供了服务端，出力是我，出钱是我，服务器和宽带乃至公网IP都是用的我的，后面无力承担了和他吵了一架就无了）~~
+[zyx-2012.com](https://hopedomain.com/zh/age/zyx-2012.com) —— 以后有钱了，要大方一点
+[zyx-2012.top](https://hopedomain.com/zh/age/zyx-2012.top) —— 这属于是性价比很高的域名了
 
-~~yuanshenqidong.ddns.net - 这个其实不能说是我的，这是no-ip提供的服务，是shairun时期的备用IP~~
 
 ## 社交平台
 
-- Email: <a href="mailto:mcxiaochenn.yyds@gmail.com">mcxiaochenn.yyds@gmail.com</a>
-- Coolapk: [@辰渊尘](https://www.coolapk.com/u/21508887)
-- Github: [@mcxiaochenn](https://github.com/mcxiaochenn)
-- bilibili: [@辰渊尘Dusk](https://space.bilibili.com/123757127)
-- QQ交流群：[1021796828](https://qm.qq.com/cgi-bin/qm/qr?k=3QBW-67mUFuCz84Heh8p31EDHtam68zo&jump_from=webapi&authKey=nZLoO4R2JmZ0qjaWDlLZ5FilZiVLAPFCvFveGmuZd8m1E0XmHPeJcsi+Ut3bHBCE)
+- Email: <a href="mailto:zyx_2012_mail@qq.com">zyx_2012_mail@qq.com</a>
+- Github: [@Zyx-2012](https://github.com/Zyx-2012)
+- bilibili: [@Zyx-2012](https://space.bilibili.com/3546582964243214)
+- Telegram: [@Zyx_2012](https://t.me/Zyx_2012)
 
 ## 关于本站
 
 域名：[阿里云](https://aliyun.com/)
 Hexo 文件托管于：[GitHub](https://github.com/)
 Hexo 部署：[Netlify](https://www.netlify.com/)
-部分其他服务部署：[Cloudflare](https://cloudflare.com/) and [Vercel](https://vercel.com/)
-后端服务提供：[Rainyun 润雨科技](https://www.rainyun.com/blxc123_)
-主题：[ANZHIYU](https://docs.anheyu.com/) with [xcTheme](https://blog.mcxiaochen.top/)
+后端服务提供：[Zeabur](https://zeabur.com)
+主题：[ANZHIYU](https://docs.anheyu.com/) with [Zyx_2012-Theme](https://hexo.zyx-2012.cn)
 

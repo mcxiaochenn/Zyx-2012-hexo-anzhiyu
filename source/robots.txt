@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.mcxiaochen.top/sitemap.xml
+Sitemap: https://hexo.zyx-2012.cn/sitemap.xml
