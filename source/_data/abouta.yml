@@ -16,13 +16,13 @@
   description: 是一名 oier、初中牲
   aboutsiteTips:
     tips: 追求
-    title1: 努力
-    title2: 调试这段 代码
+    title1: 源于
+    title2: 热爱而去 感受
     word:
-      - 算法过于抽象
-      - WA公式推错
-      - TLE超时
-      - 复杂度太高
+      - 学习
+      - 生活
+      - 程序
+      - 骑行
   helloAbout: Hello world!
   skillsTips:
     tips: 技能
