@@ -945,7 +945,7 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: 1
   start: 8
-  end: 22
+  end: 21
 
 # 不要修改以下设置，除非您知道它们如何工作 (非必要请不要修改 )
 # 选择: readmode,translate,darkmode,hideAside,toc,chat,comment
