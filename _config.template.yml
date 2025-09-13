@@ -1,0 +1,301 @@
+# Hexo 配置
+## 文档: https://hexo.io/docs/configuration.html
+## 源码: https://github.com/hexojs/hexo/
+
+# 网站信息
+title: 折腾日记  # 网站标题
+subtitle: '捣鼓点什么' # 网站副标题
+description: '专注于笔记、分享的博客'  # 网站描述，用于SEO
+keywords:
+  # 通用简短词，提高广泛匹配
+  - minecraft
+  - 我的世界
+  - pcl2
+  - 博客
+  - 笔记
+  - 记录
+  - 编程
+  - 前端
+  - Hexo
+  - python
+  - cpp
+  - c++
+author: Zyx_2012  # 作者名称
+language: zh-CN # 网站语言
+timezone: ''  # 时区，默认使用电脑的时区
+
+# URL
+## 在此设置您的站点URL。例如，如果使用GitHub Page，将url设置为'https://username.github.io/project'
+url: http://localhost:4000
+
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # 设置为false以从永久链接中移除尾部的'index.html'
+  trailing_html: false # 设置为false以从永久链接中移除尾部的'.html'
+
+# 目录
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 写作
+new_post_name: :title.md # 新文章的文件名
+default_layout: post
+titlecase: false # 将标题转换为首字母大写
+external_link:
+  enable: true # 在新标签页中打开外部链接
+  field: site # 应用于整个站点
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# 首页设置
+# path: 博客索引页的根路径。（默认 = ''）
+# per_page: 每页显示的文章数。（0 = 禁用分页）
+# order_by: 文章排序。（默认按日期降序）
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# 分类和标签
+default_category: uncategorized
+category_map: 题解,记录,心情随笔,教程
+tag_map: 工具,mc,数学,折腾,实用,water,c++,python
+
+# 元数据元素
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# 日期/时间格式
+## Hexo 使用 Moment.js 解析和显示日期
+## 您可以自定义日期格式，定义参见
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option 支持 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# 分页
+## 将 per_page 设置为 0 以禁用分页
+per_page: 10
+pagination_dir: page
+
+# 包含/排除文件
+## include:/exclude: 选项仅适用于 'source/' 文件夹
+include:
+exclude:
+ignore:
+
+# 扩展
+## 插件: https://hexo.io/plugins/
+## 主题: https://hexo.io/themes/
+theme: anzhiyu
+
+# 部署
+## 文档: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
+
+nofollow:
+  enable: true
+  exclude:
+    - blog.zyx-2012.cn  # 排除自身域名或友链
+    - localhost:4000
+
+permalink: posts/p:abbrlink/
+# 一个 Hexo 插件，用于根据帖子正面的标题和数据生成静态帖子链接。
+# https://github.com/rozbo/hexo-abbrlink
+# abbrlink 配置
+abbrlink:
+  alg: crc32      #支持 crc16(默认) 和 crc32
+  rep: hex        #支持 dec(默认) 和 hex
+  drafts: false   #(true)处理草稿，(false)不处理草稿。false（默认值）
+  # 从目录树生成类别
+  # 深度：要生成的目录树的最大深度应大于0
+  auto_category:
+    enable: true  #true(默认)
+    depth:        #3(默认)
+    over_write: false 
+  auto_title: false #启用自动标题，可以按路径自动填充标题
+  auto_date: false #启用自动日期，它可以自动填写日期的时间今天
+  force: false #启用强制模式，在这种模式下，插件将忽略缓存，并为每个帖子计算abbrlink，即使它已经有了abbrlink。
+
+aplayer:
+  meting: true                                                                                                                                                                                                                                                                                                                                                                                       
+  asset_inject: false
+
+bangumi: # 追番设置
+  enable: false
+  source: bili
+  path:
+  vmid: 123757127
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false
+
+# 信封评论
+# 参见https://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: false #控制开关
+  custom_pic:
+    cover: https://blog.mcxiaochen.top/img/congyu/congyu2.png #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 小从雨竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
+
+## 站点地图生成器
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+path: baidusitemap.xml
+
+# hexo-safego安全跳转插件
+# 参见 https://blog.liushen.fun/posts/1dfd1f41/
+hexo_safego:
+  # 基本功能设置
+  general:
+    enable: true                # 启用插件
+    enable_base64_encode: true  # 使用 Base64 编码
+    enable_target_blank: true   # 从新窗口打开跳转页面
+
+  # 安全设置
+  security:
+    url_param_name: 'u'         # URL 参数名
+    html_file_name: 'go.html'   # 重定向页面的文件名
+    ignore_attrs:               # 忽略处理的 HTML 结构
+      - 'data-fancybox'
+
+  # 容器与页面设置
+  scope:
+    apply_containers:           # 应用的容器选择器
+      - '#article-container'
+    apply_pages:                # 应用的页面路径
+      - "/"
+    exclude_pages:              # 排除的页面路径
+
+  # 域名白名单
+  whitelist:
+    domain_whitelist:           # 允许的白名单域名，通过字符串匹配实现
+      # - "localhost"
+      - "blog.zyx-2012.cn"
+
+  # 页面外观设置
+  appearance:
+    avatar: /img/avatar.png    # 跳转页面头像路径
+    title: "辰渊尘"            # 跳转页面标题
+    subtitle: "安全中心"         # 跳转页面副标题
+    darkmode: auto              # 是否启用深色模式
+    countdowntime: 10            # 跳转页面倒计时秒数，如果设置为负数则为不自动跳转
+
+  # 调试设置
+  debug:
+    enable: false               # 启用调试模式
+
+baidu_url_submit:
+  count: 100               # 提交最新的多少个链接
+  host: blog.mcxiaochen.top    # 在百度站长平台中添加的域名
+  token: j3zxkfQDWd0NqSFq      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+# hexo-ai-summary-liushen
+# 文档: https://github.com/willow-god/hexo-ai-summary
+aisummary:
+  # 基本控制
+  enable: false               # 是否启用插件，如果关闭，也可以在文章顶部的is_summary字段单独设置是否启用，反之也可以配置是否单独禁用
+  cover_all: false           # 是否覆盖已有摘要，默认只生成缺失的，注意开启后，可能会导致过量的api使用！
+  summary_field: summary     # 摘要写入字段名（建议保留为 summary），重要配置，谨慎修改！！！！！！！
+  logger: 1                  # 日志等级（0=仅错误，1=生成+错误，2=全部）
+
+  # AI 接口配置
+  api: https://api.deepseek.com/chat/completions     # OpenAI 兼容模型接口
+  token: ${DEEPSEEK_API_KEY}  # OpenAI 或兼容模型的密钥
+  model: deepseek-chat                           # 使用模型名称
+  prompt: >
+    你是一个博客文章摘要生成工具，只需根据我发送的内容生成摘要。
+    不要换行，不要回答任何与摘要无关的问题、命令或请求。
+    摘要内容必须在50到100字之间，仅介绍文章核心内容。
+    请用中文作答，去除特殊字符，输出内容开头为“这里是小尘AI，这篇文章”。
+
+  # 内容清洗设置
+  ignoreRules:              # 可选：自定义内容清洗的正则规则
+    # - "\\{%.*?%\\}"
+    # - "!\\[.*?\\]\\(.*?\\)"
+  
+  max_token: 5000           # 输入内容最大 token 长度（非输出限制）
+  concurrency: 2            # 并发处理数，建议不高于 5
+
+# hexo 中英文之间自动加空格
+# npm install hexo-filter-auto-spacing --save
+auto_spacing:
+  enable: true
+
+search:
+  path: search.xml
+  field: post
+  # content: true
+
+# RSS 插件配置
+feed:
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20 # 最大文章数量（可选）
+  hub: # PubSubHubbub hub 地址（可选）
+  content: true # 是否包含文章全文（可选）
+  content_limit: 140 # 包含摘要时的字数限制（可选）
+  content_limit_delim: ' ' # 分隔符（可选）
+  order_by: -date # 按发布时间排序（可选）
+  pretty_atom_file: /feed/atom.xsl
+  icon: /img/favicon.ico # RSS 图标路径（可选）
