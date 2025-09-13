@@ -231,7 +231,7 @@ hexo_safego:
   # 页面外观设置
   appearance:
     avatar: /img/avatar.png    # 跳转页面头像路径
-    title: "辰渊尘"            # 跳转页面标题
+    title: "拦截页"            # 跳转页面标题
     subtitle: "安全中心"         # 跳转页面副标题
     darkmode: auto              # 是否启用深色模式
     countdowntime: 10            # 跳转页面倒计时秒数，如果设置为负数则为不自动跳转

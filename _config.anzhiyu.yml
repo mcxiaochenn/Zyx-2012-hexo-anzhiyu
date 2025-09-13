@@ -239,7 +239,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 浙江嘉兴
+  location: 北京
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -943,7 +943,7 @@ darkmode:
   # autoChangeMode: 1  跟随系统设置，如果系统不支持深色模式，将在晚上 6 点到早上 6 点之间切换深色模式
   # autoChangeMode: 2  在晚上 6 点到早上 6 点之间切换深色模式
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
   start: 8
   end: 22
 
