@@ -12,7 +12,7 @@ menu:
      留言板: /comments/ || anzhiyu-icon-envelope
 
    我的:
-    #  音乐馆: /music/?id=12886307666&server=netease || anzhiyu-icon-music
+     音乐馆: /music/?id=14288163236&server=netease || anzhiyu-icon-music
     #  追番页: /bangumis/ || anzhiyu-icon-bilibili
      关于我: /about/ || anzhiyu-icon-paper-plane
      闲言碎语: /essay/ || anzhiyu-icon-lightbulb
@@ -515,7 +515,7 @@ footer:
           - title: 追番页
             link: /bangumis/
           - title: 音乐馆
-            link: /music/?id=12886307666&server=netease
+            link: /music/?id=14288163236&server=netease
           - title: 最新评论
             link: /messages/
       - title: 导航
@@ -1159,10 +1159,10 @@ comment_barrage_config:
 nav_music:
   enable: true
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
-  id: 12886307666
+  id: 14288163236
   server: netease
   volume: 0.7 # 默认音量
-  all_playlist: https://music.163.com/#/playlist?id=12886307666
+  all_playlist: https://music.163.com/#/playlist?id=14288163236
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
